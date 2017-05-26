@@ -1,0 +1,28 @@
+# include <iostream.h>
+# include <conio.h>
+void main()
+{
+   
+   int Num = 0, s, r, t;
+   clrscr();
+
+   cout << " Enter Any Number : ";
+   cin >> Num;
+   t   =   Num;
+   s   =   0;
+   while ( Num > 0 )
+   {
+       r = Num % 10;
+       s = s + ( r * r * r );
+       Num = Num / 10;
+   }
+   if ( s == t )
+   {
+      cout << t << " Is An Armstrong Number.";
+   }
+   else
+   {
+      cout << t << " Is Not An Armstrong Number.";
+   }
+   getch();
+}
