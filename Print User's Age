@@ -1,0 +1,9 @@
+#include <iostream.h>
+int main()
+{
+int age;
+cout << "Please enter your age and press return:";
+cin >> age;
+cout << "You are " << age << " years old." << endl;
+return 0;
+}
