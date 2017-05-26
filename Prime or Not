@@ -1,0 +1,26 @@
+# include <iostream.h>
+# include <conio.h>
+
+void main()
+{
+   int Num = 0, k, i;
+   clrscr();
+   cout << " Enter Any Number : ";
+   cin >> Num;
+   i = 1, k = 0;
+   while ( i <= Num )
+   {
+      if ( Num % i == 0 )
+         k++;
+         i++;
+   }
+   if ( k == 2 )
+   {
+      cout << Num << " Is A Prime Number. ";
+   }
+   else
+   {
+      cout << Num << " Is Not A Prime Number. ";
+   }
+   getch();
+}
