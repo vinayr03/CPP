@@ -1,0 +1,18 @@
+# include <iostream.h>
+# include <conio.h>
+
+void  main()
+{
+         
+         int Num=0;
+         clrscr();
+        
+         cout << " \n Please Enter The Year = \t " ;
+         cin >> Num ;
+         if ( ( Num % 4 == 0 ) && (Num % 100 != 0) || (Num % 400 == 0 ) )
+                cout << " \n The Entered Year Is A 'LEAP YEAR' " ;
+         else
+                cout << " \n The Entered Year Is Not A 'LEAP YEAR' " ;
+
+         getch();
+}
